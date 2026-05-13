@@ -31,7 +31,7 @@ iconeEspessura = 2.2;   // espessura do contorno
 iconeAltura    = alturaBorda; // mesmo height da borda, parte de Z=0
 
 // Centralizado na borda esquerda
-iconeCentroX   = -(dimensao/2) + 18;
+iconeCentroX   = -(dimensao/2) + 20;
 iconeCentroY   = 0;
 
 function familia_info(f) =
@@ -71,8 +71,9 @@ module letras() {
             text3d(nomeELemento, h=alturaLetra, size=10, anchor=CENTER, center=true, font=fonte);
 
         back((dimensao/2) - 17)
-            left(dimensao/2 - 10)
-                text3d(numeroAtomico, h=alturaLetra, size=14, anchor=LEFT, center=true, font=fonte);
+            left(dimensao/2 -
+            20)
+                text3d(numeroAtomico, h=alturaLetra, size=14, anchor=CENTER, center=true, font=fonte);
 
         back((dimensao/2) - 19)
             right(dimensao/2 - 10)
