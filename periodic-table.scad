@@ -8,9 +8,8 @@ massaAtomico = "(875)";
 
 
 dimensao = 100;
-alturaBorda = 10;
-borda = 10;
-profundidade = 5;
+alturaBorda = 7;
+profundidade = 3;
 
 alturaLetra = profundidade;
 
